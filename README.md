@@ -1,4 +1,4 @@
-# proto-data-to-csv-data
+# keep-year-in-scv 
 
 ## About
 
@@ -17,5 +17,5 @@ go install github.com/flapotre/keep-year-in-csv@latest
 *This script assume that you scv is sort by date*
 
 ```bash
-proto-data-to-csv-data --file-name <FILE_NAME> --date-position <DATE_POSITION_INSIDE_CSV> --year <YEAR_TO_KEEP>
+keep-year-in-csv --file-name <FILE_NAME> --date-position <DATE_POSITION_INSIDE_CSV> --year <YEAR_TO_KEEP>
 ```
